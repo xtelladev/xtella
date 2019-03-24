@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/xtella_bg.qm</file>
+        <file alias="ca">locale/xtella_ca.qm</file>
+        <file alias="cs">locale/xtella_cs.qm</file>
+        <file alias="da">locale/xtella_da.qm</file>
+        <file alias="de">locale/xtella_de.qm</file>
+        <file alias="en">locale/xtella_en.qm</file>
+        <file alias="en_US">locale/xtella_en_US.qm</file>
+        <file alias="es">locale/xtella_es.qm</file>
+        <file alias="fi">locale/xtella_fi.qm</file>
+        <file alias="fr_FR">locale/xtella_fr_FR.qm</file>
+        <file alias="it">locale/xtella_it.qm</file>
+        <file alias="ja">locale/xtella_ja.qm</file>
+        <file alias="ko_KR">locale/xtella_ko_KR.qm</file>
+        <file alias="nl">locale/xtella_nl.qm</file>
+        <file alias="pl">locale/xtella_pl.qm</file>
+        <file alias="pt">locale/xtella_pt.qm</file>
+        <file alias="pt_BR">locale/xtella_pt_BR.qm</file>
+        <file alias="ro_RO">locale/xtella_ro_RO.qm</file>
+        <file alias="ru">locale/xtella_ru.qm</file>
+        <file alias="sk">locale/xtella_sk.qm</file>
+        <file alias="sv">locale/xtella_sv.qm</file>
+        <file alias="uk">locale/xtella_uk.qm</file>
+        <file alias="zh_CN">locale/xtella_zh_CN.qm</file>
+        <file alias="zh_TW">locale/xtella_zh_TW.qm</file>
+    </qresource>
+</RCC>

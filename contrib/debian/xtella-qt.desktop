@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=xtella
+Comment=xtella P2P Cryptocurrency
+Comment[fr]=xtella, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=xtella, eşten eşe kriptografik sanal para birimi
+Exec=xtella-qt %u
+Terminal=false
+Type=Application
+Icon=xtella128
+MimeType=x-scheme-handler/xtella;
+Categories=Office;Finance;

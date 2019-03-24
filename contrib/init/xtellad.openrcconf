@@ -1,0 +1,26 @@
+# /etc/conf.d/xtellad: config file for /etc/init.d/xtellad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/xtella/xtella.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/xtellad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/xtellad.pid"
+
+# Where to write xtellad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/xtellad"
+
+# User and group to own xtellad process
+#BITCOIND_USER="xtella"
+#BITCOIND_GROUP="xtella"
+
+# Path to xtellad executable
+#BITCOIND_BIN="/usr/bin/xtellad"
+
+# Nice value to run xtellad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,26 @@
+[Unit]
+Description=xtella's distributed currency daemon
+After=network.target
+
+[Service]
+User=xtella
+Group=xtella
+
+Type=forking
+PIDFile=/var/lib/xtellad/xtellad.pid
+
+ExecStart=/usr/bin/xtellad -daemon -pid=/var/lib/xtellad/xtellad.pid \
+          -conf=/etc/xtella/xtella.conf -datadir=/var/lib/xtellad
+
+ExecStop=-/usr/bin/xtella-cli -conf=/etc/xtella/xtella.conf \
+         -datadir=/var/lib/xtellad stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
