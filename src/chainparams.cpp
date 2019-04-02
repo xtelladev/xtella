@@ -393,7 +393,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // xtella: 1 day
         nTargetSpacing = 1 * 180;  // xtella: 3 Min 
-        nLastPOWBlock = 4032;   //Last Pow Block
+        nLastPOWBlock = 8080;   //Last Pow Block
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
